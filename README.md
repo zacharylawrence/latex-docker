@@ -46,7 +46,7 @@ edit ./latexdockercmd.sh
 
 # Or use latexmk (best option)
 ./latexdockercmd.sh latexmk -cd -f -interaction=batchmode -pdf main.tex
-# Cleanup: ./dockercmd.sh latexmk -c or -C
+# Cleanup: ./latexdockercmd.sh latexmk -c or -C
 
 # Or make multiple passes (does not start container twice)
 ../latexdockercmd.sh /bin/sh -c "pdflatex main.tex && pdflatex main.tex"
